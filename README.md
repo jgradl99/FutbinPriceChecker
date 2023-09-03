@@ -1,5 +1,5 @@
 # FutbinPriceChecker
-A simple python program to get the current price of one or whole list more players. 
+A simple python program to get the current price of one or whole list of more players.
 
 # Install
 - you need to have TOR installed -> otherwise you are limited in the amount of request you can do in a short amount
