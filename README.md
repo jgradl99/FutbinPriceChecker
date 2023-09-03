@@ -7,8 +7,11 @@ A simple python program to get the current price of one or whole list more playe
 - Futbin ids and EA ids are the same -> include the corresponding ids of the player you want to get the price of inside the 'id' list
 - update your console (default is 'ps' = playstation) and, if needed the year of the Futbin URL and you are ready to go
 
+# Output
+- it all in JSON and can be found inside 'output.txt'
+
 # Output example
-its all JSON 
+
   {
     "224348": {
         "prices": {
