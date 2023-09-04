@@ -17,6 +17,7 @@ try:
 except NameError:
     to_unicode = str
 
+# add new ids here
 ids = {
 
     224348
@@ -79,7 +80,7 @@ ProfitValue = 300   # can be edited for personal preferences
 for (id) in ids:
     session = get_tor_session()
     try:
-        r = session.get('https://www.futbin.com/21/playerPrices?player=' + str(id))
+        r = session.get('https://www.futbin.com/23/playerPrices?player=' + str(id)) # update the year inside the URL if needed
         r2 = session.get('https://www.futbin.com/')
     except requests.exceptions.Timeout:
         errorCounter += 1
